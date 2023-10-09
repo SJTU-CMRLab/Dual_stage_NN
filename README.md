@@ -6,7 +6,7 @@ To develop a partially interpretable neural network for joint suppression of ban
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/Figure1.png">
  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/Figure1.png">
- <img alt="YOUR-ALT-TEXT" src="https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/Figure1.png">
+ <img alt="The scheme of the dual-stage network and generation of the training labels" src="https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/Figure1.png">
 </picture>
 
 
