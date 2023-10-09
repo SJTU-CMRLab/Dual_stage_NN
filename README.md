@@ -29,7 +29,11 @@ For the healthy subjects, visual inspection and quantitative analysis found a co
 The dual-stage network simultaneously reduces banding and flow artifacts in bSSFP cine imaging with a partial interpretability, sparing the need for sequence modification. The method can be easily deployed in a clinical setting to identify artifacts and improve cine image quality.
 
 # Requirements
-
+numpy==1.21.2
+opencv_python==4.5.1.48
+scipy==1.8.1
+torch==1.11.0
+torchvision==0.12.0
 
 
 # How to use
