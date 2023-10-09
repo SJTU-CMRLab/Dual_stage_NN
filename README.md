@@ -39,3 +39,5 @@ Details of the codes are as follows:
 
 [data](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/data): it contains training data and testing data. Cine images with 12 frequency offsets are included in the training data.
 
+[model](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/model): it contains trained VI and AS models.
+
