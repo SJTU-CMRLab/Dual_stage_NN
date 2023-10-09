@@ -28,7 +28,7 @@ For the healthy subjects, visual inspection and quantitative analysis found a co
 
 The dual-stage network simultaneously reduces banding and flow artifacts in bSSFP cine imaging with a partial interpretability, sparing the need for sequence modification. The method can be easily deployed in a clinical setting to identify artifacts and improve cine image quality.
 
-# Installation
+# Requirements
 
 
 
@@ -43,5 +43,5 @@ Details of the codes are as follows:
 
 [data](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/data): It contains training data and testing data. Cine images with 12 frequency offsets are included in the training data.
 
-[model](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/model): It contains trained VI and AS models.
+[model](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/model): It contains pre-trained VI and AS models.
 
