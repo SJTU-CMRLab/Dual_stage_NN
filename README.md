@@ -3,6 +3,13 @@
 # Purpose
 To develop a partially interpretable neural network for joint suppression of banding and flow artifacts in non-phase-cycled bSSFP cine imaging
 
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
+
+
 # Methods
 A dual-stage neural network consisting of a Voxel-Identification (VI) sub-network and Artifact-Suppression (AS) sub-network is proposed. The VI sub-network provides identification of artifacts, which guides artifact suppression and improves interpretability. The AS sub-network reduces banding and flow artifacts. 
 
