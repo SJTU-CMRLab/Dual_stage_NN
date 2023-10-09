@@ -4,9 +4,9 @@
 To develop a partially interpretable neural network for joint suppression of banding and flow artifacts in non-phase-cycled bSSFP cine imaging
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/Figure1.png">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/Figure1.png">
+ <img alt="YOUR-ALT-TEXT" src="https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/Figure1.png">
 </picture>
 
 
