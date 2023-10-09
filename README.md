@@ -28,16 +28,19 @@ For the healthy subjects, visual inspection and quantitative analysis found a co
 
 The dual-stage network simultaneously reduces banding and flow artifacts in bSSFP cine imaging with a partial interpretability, sparing the need for sequence modification. The method can be easily deployed in a clinical setting to identify artifacts and improve cine image quality.
 
+# Installation
+
+
 # How to use
 Details of the codes are as follows:
 
-[VIstage_train.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/VIstage_train.py): to train VI stage firstly.
+[VIstage_train.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/VIstage_train.py): To train VI stage firstly.
 
-[ASstage_train.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/ASstage_train.py): to train AS stage after training VI stage. VI sub-network was frozen and only used to provide the VI maps.
+[ASstage_train.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/ASstage_train.py): To train AS stage after training VI stage. During the training of AS stage, VI sub-network was frozen and only used to provide the VI maps.
 
-[test.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/test.py): to test the dual-stage network.
+[test.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/test.py): To test the dual-stage network.
 
-[data](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/data): it contains training data and testing data. Cine images with 12 frequency offsets are included in the training data.
+[data](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/data): It contains training data and testing data. Cine images with 12 frequency offsets are included in the training data.
 
-[model](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/model): it contains trained VI and AS models.
+[model](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/model): It contains trained VI and AS models.
 
