@@ -29,15 +29,21 @@ For the healthy subjects, visual inspection and quantitative analysis found a co
 The dual-stage network simultaneously reduces banding and flow artifacts in bSSFP cine imaging with a partial interpretability, sparing the need for sequence modification. The method can be easily deployed in a clinical setting to identify artifacts and improve cine image quality.
 
 # Requirements
+
 numpy==1.21.2
+
 opencv_python==4.5.1.48
+
 scipy==1.8.1
+
 torch==1.11.0
+
 torchvision==0.12.0
 
 
+
 # How to use
-Details of the codes are as follows:
+Details of the code are as follows:
 
 [VIstage_train.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/VIstage_train.py): To train VI stage firstly.
 
@@ -48,4 +54,11 @@ Details of the codes are as follows:
 [data](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/data): It contains training data and testing data. Cine images with 12 frequency offsets are included in the training data.
 
 [model](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/model): It contains pre-trained VI and AS models.
+
+# Publications
+If you want to cite this work or use part of the code, please cite:
+
+**A Dual-Stage Partially Interpretable Neural Network for Joint Suppression of bSSFP Banding and Flow Artifacts in Non-Phase-Cycled Cine Imaging** by Zhuo Chen, Juan Gao, Yanjia Chen, Yiwen Gong, Yiwen Shen, Xin Tang, Yixin Emu, Wei Jin, Sha Hua*, and Chenxi Hu1* (Under revision)
+
+
 
