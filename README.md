@@ -31,5 +31,6 @@ The dual-stage network simultaneously reduces banding and flow artifacts in bSSF
 # How to use
 Details of the codes are as follows:
 
-[VIstage_train.py](): 
+[VIstage_train.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/VIstage_train.py): to train VI stage firstly
+[ASstage_train.py](https://github.com/SJTU-CMRLab/Dual_stage_NN/blob/main/VIstage_train.py): to train AS stage after training VI stage. VI sub-network was frozen and only used to provide the VI maps.
 
