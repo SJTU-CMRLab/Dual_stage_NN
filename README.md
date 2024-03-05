@@ -58,7 +58,8 @@ Details of the code are as follows:
 # Publications
 If you want to cite this work or use part of the code, please cite:
 
-**A Dual-Stage Partially Interpretable Neural Network for Joint Suppression of bSSFP Banding and Flow Artifacts in Non-Phase-Cycled Cine Imaging** by Zhuo Chen, Juan Gao, Yanjia Chen, Yiwen Gong, Yiwen Shen, Xin Tang, Yixin Emu, Wei Jin, Sha Hua*, and Chenxi Hu* (Under revision)
+[1] Z. Chen, S. Hua, J. Gao, Y. Chen, Y. Gong, Y. Shen, X. Tang, Y. Emu, W. Jin, C. Hu, A dual-stage partially interpretable neural network for joint suppression of bSSFP banding and flow artifacts in non-phase-cycled cine imaging, Journal of Cardiovascular Magnetic Resonance 25 (2023) 68. https://doi.org/10.1186/s12968-023-00988-z.
+
 
 
 
